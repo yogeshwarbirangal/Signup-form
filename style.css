@@ -1,0 +1,91 @@
+*{
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+}
+body{
+
+    background-image: url('306-3060945_hot-air-balloon.jpg');
+    background-size: cover;
+    box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.3);
+}
+.signup-container{
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-body{
+
+    background-color: #361133;
+    border-radius: 15px;
+    width: 360px;
+    height: 400px;
+    padding: 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+}
+.title p{
+
+    color:#fff;
+    text-align: center;
+    font-size: 1.3em;
+    margin: 1rem 0rem;
+}
+.signup-field{
+    padding: 0rem;
+    display: flex;
+    justify-content: space-between;   
+    
+}
+.line{
+    height: 1.5px;
+    background:#ff5963;
+    position: relative;
+    bottom: 0.7rem;
+}
+.signup-field input{
+
+            background-color: transparent;
+            border: none;
+            outline: none;
+            padding: 0rem 0rem;
+}
+
+.signup-field i{
+    padding: 1rem 0rem;
+}
+.signup-field input[text] ,i{
+
+    color:#776575;
+}
+.signup-buttons{
+    
+        margin: 2rem 0rem;
+}
+.signup-btn{
+
+    background-color: #ff5963;
+    outline: none;
+    border: 1px solid #ff5963;
+    padding: 0.7rem 3rem;
+    width: 250px;
+    margin: 0.8rem auto;
+    border-radius: 20px;
+    color:#fff;
+    font-size: 1em;
+    font-weight: 600;
+}
+.signup-buttons p{
+
+    color:#776575;
+    text-align: center;
+    padding: 0rem rem;
+}
+.signup-buttons a{
+
+    color:#a83a52;
+}
